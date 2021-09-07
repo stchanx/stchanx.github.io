@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /*background image*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #e5e4e6;
+}
+
+
+
+hr {
+  border-width: 100;
+  border-color: white;
+  max-width: 70px;
+}
+
+
+.btn {
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+
+.btn-find-out-more {
+  padding: 1rem 2rem;
+  background-color: darkred;
+  border-color: darkred;
+
+}
+
+
+.btn-find-out-more:hover {
+  background-color: deeppink;
+  border-color: deeppink;
+  border-width: 5px; 
+}
+
+
+.buffer {
+  height: 12rem;
+}
+
